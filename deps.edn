@@ -2,8 +2,10 @@
  :deps {;; The view is hiccup over kotoba-ui's shell + HIG tokens (kotoba-uiux
         ;; rules 2 and 4). kotoba.hls itself -- the part with the tests --
         ;; depends on nothing at all.
-        io.github.kotoba-lang/kotoba-ui {:local/root "../kotoba-ui"}
-        io.github.kotoba-lang/css {:local/root "../css"}}
+        io.github.kotoba-lang/kotoba-ui {:git/url "https://github.com/kotoba-lang/kotoba-ui.git"
+                                     :git/sha "4167b3aa911690368bb47b61e825c47d3327bfac"}
+        io.github.kotoba-lang/css {:git/url "https://github.com/kotoba-lang/css.git"
+                                     :git/sha "7fc8167c4fb97a92b7c21545e6a92a86cc58a9ca"}}
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps {io.github.cognitect-labs/test-runner
