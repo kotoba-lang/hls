@@ -15,7 +15,7 @@
 
   Portable across JVM / ClojureScript / SCI / GraalVM: no I/O, no DOM, no
   HLS library."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def states
   "Valid viewer states.
