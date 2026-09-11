@@ -71,8 +71,8 @@ a `<video>` needs that no shell scaffold covers.
 ## Test
 
 ```sh
-clojure -M:test    # kotoba.hls — 7 tests, 39 assertions
-clojure -M:lint
+kbb -M:test    # kotoba.hls — 7 tests, 39 assertions
+kbb -M:lint
 ```
 
 `kotoba.hls` has no dependencies at all, so the part with the tests is portable
