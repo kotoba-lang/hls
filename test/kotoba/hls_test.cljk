@@ -1,5 +1,5 @@
 (ns kotoba.hls-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [kotoba.hls :as hls]))
 
 (def b1 {:broadcastId "1" :playlistUrl "https://p/1/playlist.m3u8" :live false})
